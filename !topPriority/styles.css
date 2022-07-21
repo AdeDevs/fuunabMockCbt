@@ -1,0 +1,106 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: "Quicksand";
+    text-transform: capitalize;
+}
+
+.quiz {
+    max-width: 100%;
+    margin: 0 auto;
+    width: 1250px;
+    min-height: 400px;
+}
+
+
+.top-nav {
+    background-color: #002037;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1em;
+} 
+
+.top-nav .timer {
+    font-family: "Poppins", 'Courier New', Courier, monospace;
+    background-color: rgb(215, 26, 80);
+    font-weight: 700;
+    box-sizing: border-box;
+    padding: 1%;
+    align-items: center;
+    justify-content: space-evenly;
+    display: inline-flex;
+}
+
+.quiz #submit {
+    border: none;
+    font-family: "Poppins", 'Courier New', Courier, monospace;
+    font-weight: 700;
+    color: white;
+    padding: 1em;
+    background-color: green;
+    border-radius: 9px;
+    margin-bottom: 2em;
+}
+
+#questions {
+    margin-left: 1%;
+}
+
+#questions ul {
+    
+    margin-left: 3em;
+    margin-bottom: 2em;
+    list-style-type: none;
+    display: inline-flex;
+}
+
+#questions ul li {
+    margin-right:  10px;
+}
+
+
+.result {
+    color: #000;
+    padding: 0 20px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid red;
+    max-width: 100%;
+    margin: 0 auto;
+    width: 700px;
+    padding-top: 1.5em;
+    min-height: 350px;
+    margin-bottom: 20em;
+}
+
+.result .res {
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #002037;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.result .disp_result {
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 0.5em;
+    display: inline-flex;
+    margin-bottom: 1.3em;
+}
+
+.result button {
+    border: none;
+    font-family: "Poppins", 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: white;
+    padding: 0.7em;
+    text-align: center;
+    background-color: rgb(215, 26, 80);
+    border-radius: 5px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
